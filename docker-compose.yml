@@ -22,7 +22,7 @@ services:
         condition: service_healthy
     environment:
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
-      AIRFLOW__CORE__FERNET_KEY: 'K1SxGnNpgZNZXKy--fF9hbA-vw6HOpGHbnkR4gnFK_Y='
+      AIRFLOW__CORE__FERNET_KEY: 'Fernetkey'
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
     command: >
           bash -c "airflow db init &&
