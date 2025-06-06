@@ -41,5 +41,5 @@ This repository showcases my hands-on learning and practice with Apache Airflow,
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/<Param-2003>/airflow-projects-portfolio.git
-   cd airflow-projects-portfolio
+   git clone https://github.com/<Param-2003>/airflow_more_airflow.git
+   cd airflow_more_airflow
